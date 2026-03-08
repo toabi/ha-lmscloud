@@ -1,0 +1,14 @@
+{
+  "domain": "lmscloud",
+  "name": "LMSCloud",
+  "codeowners": [
+    "@toabi"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/toabi/ha-lmscloud",
+  "iot_class": "cloud_polling",
+  "loggers": [
+    "custom_components.lmscloud"
+  ],
+  "version": "0.1.0"
+}

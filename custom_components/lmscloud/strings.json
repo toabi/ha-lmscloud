@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to LMSCloud",
+        "description": "Enter your LMSCloud library account details.",
+        "data": {
+          "base_domain": "Base domain",
+          "username": "Username",
+          "password": "Password",
+          "time_zone": "Time zone"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to LMSCloud",
+      "invalid_auth": "Invalid credentials",
+      "invalid_base_domain": "Invalid base domain",
+      "invalid_time_zone": "Invalid time zone",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This account is already configured"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "borrowed_books": {
+        "name": "Borrowed Books"
+      },
+      "overdue_books": {
+        "name": "Overdue Books"
+      },
+      "next_due_date": {
+        "name": "Next Due Date"
+      },
+      "next_extension_possible": {
+        "name": "Next Extension Possible"
+      },
+      "ready_holds": {
+        "name": "Ready Holds"
+      },
+      "fees_balance": {
+        "name": "Fees Balance"
+      }
+    }
+  }
+}

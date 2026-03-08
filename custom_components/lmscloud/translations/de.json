@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Mit LMSCloud verbinden",
+        "description": "Gib die Zugangsdaten deines LMSCloud-Bibliothekskontos ein.",
+        "data": {
+          "base_domain": "Basis-Domain",
+          "username": "Benutzername",
+          "password": "Passwort",
+          "time_zone": "Zeitzone"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zu LMSCloud fehlgeschlagen",
+      "invalid_auth": "Ungültige Zugangsdaten",
+      "invalid_base_domain": "Ungültige Basis-Domain",
+      "invalid_time_zone": "Ungültige Zeitzone",
+      "unknown": "Unerwarteter Fehler"
+    },
+    "abort": {
+      "already_configured": "Dieses Konto ist bereits eingerichtet"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "borrowed_books": {
+        "name": "Ausgeliehene Medien"
+      },
+      "overdue_books": {
+        "name": "Überfällige Medien"
+      },
+      "next_due_date": {
+        "name": "Nächstes Fälligkeitsdatum"
+      },
+      "next_extension_possible": {
+        "name": "Nächste Verlängerung möglich"
+      },
+      "ready_holds": {
+        "name": "Abholbereite Vormerkungen"
+      },
+      "fees_balance": {
+        "name": "Gebührensaldo"
+      }
+    }
+  }
+}
